@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/edge2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="asdf99"
+            android:textSize="15pt"
+            >
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:background="#000000"
+            ></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="#아이리스"
+            android:textSize="10pt"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:background="#000000"
+            ></View>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+
+            android:scaleType="fitCenter"
+            android:src="@drawable/a1"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:background="#000000"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ic_baseline_thumb_up_24"/>
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ic_baseline_chat_bubble_24"/>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:background="#000000"
+            ></View>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요"
+            android:layout_marginLeft="20dp"
+            android:textSize="15pt"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#000000"></View>
+    </LinearLayout>
+
+</LinearLayout>
+
+

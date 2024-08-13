@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/edge6"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+            <TextView
+                android:id="@+id/shopId"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="아이디"
+                android:textAlignment="center"
+                android:textColor="#00a7f5"
+                android:fontFamily="@font/gomm"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/shopName"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/gomm"
+                android:text="가게이름"
+                android:textColor="#014940"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/shopAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/gomm"
+                android:text="주소"
+                android:textColor="#f92a3f"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/shopHash"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="해시태그"
+                android:fontFamily="@font/gomm"
+                android:textColor="#283593"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/shopUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="닉네임"
+                android:textColor="#00a7f5"
+                android:textSize="15dp"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/shopContext"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="소개"
+                android:textColor="#6A1B9A"
+                android:fontFamily="@font/gomm"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/shopCall"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="전화번호"
+                android:textColor="#F9A825"
+                android:fontFamily="@font/gomm"
+                android:textSize="20dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/man"
+                android:scaleType="fitXY"
+                android:background="#F4D0D0"
+                android:id="@+id/image1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

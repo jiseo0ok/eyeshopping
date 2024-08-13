@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/tv_marker"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/this1"
+        android:gravity="top|center"
+        android:paddingTop="14dp"
+        android:paddingStart="27dp"
+        android:fontFamily="@font/gomm"
+
+        android:textSize="17dp" />
+</FrameLayout>

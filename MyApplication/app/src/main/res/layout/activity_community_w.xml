@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/edge6">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/back"
+            android:src="@drawable/bbaac"
+            android:background="@drawable/edge7"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="asdf99"
+            android:visibility="gone"
+            android:id="@+id/userID"
+            android:textSize="15pt">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="타이틀"
+            android:fontFamily="@font/gomm"
+            android:id="@+id/hash"
+            android:textSize="10pt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="시간"
+            android:layout_marginRight="20dp"
+            android:id="@+id/date"
+            android:textSize="10pt"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+
+            android:scaleType="fitCenter"
+
+            android:id="@+id/image"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/imagebt"
+            android:src="@drawable/came"
+            android:background="@drawable/edge7"/>
+
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/gomm"
+            android:hint="내용"
+            android:textSize="15pt" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/addd"
+            android:src="@drawable/addd1"
+            android:background="@drawable/edge7"/>
+    </LinearLayout>
+
+</LinearLayout>

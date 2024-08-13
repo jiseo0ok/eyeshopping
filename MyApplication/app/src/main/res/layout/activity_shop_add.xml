@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shop_Add"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/back"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_24"
+
+                />
+            <ImageView
+                android:layout_weight="15"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/aaa"
+                />
+
+            <View
+                android:layout_weight="1"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000">
+        </View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="가게ID : "
+                android:gravity="right"
+                android:textSize="30dp">
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="가게ID을 적어주세요"
+                android:textSize="20dp"
+
+                android:background="#EAE4E4"
+                android:id="@+id/shopId">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="가게명 : "
+        android:gravity="right"
+        android:textSize="30dp">
+    </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="가게명을 적어주세요"
+                android:textSize="20dp"
+                android:background="#EAE4E4"
+                android:id="@+id/shopName">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="주소 : "
+                android:textSize="30dp"
+                android:gravity="right"
+                >
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="주소를 적어주세요"
+                android:id="@+id/shopAddress"
+                android:background="#EAE4E4"
+                android:textSize="20dp">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="해시태그 : "
+                android:gravity="right"
+                android:textSize="30dp">
+            </TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="#미니멀 #가좌동"
+                android:background="#EAE4E4"
+                android:textSize="20dp"
+                android:id="@+id/shopHash"
+                >
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="가게소개 : "
+                android:gravity="right"
+                android:textSize="30dp">
+            </TextView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="가게소개를 적어주세요"
+
+                android:textSize="20dp"
+                android:background="#EAE4E4"
+                android:id="@+id/shopContext">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="전화번호 : "
+                android:gravity="right"
+                android:textSize="30dp">
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="010-0000-0000"
+                android:background="#EAE4E4"
+                android:textSize="20dp"
+                android:id="@+id/shopCall">
+            </EditText>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="이미지 : "
+                android:gravity="right"
+                android:textSize="30dp"
+                >
+            </TextView>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/map"
+                android:scaleType="centerInside"
+                android:id="@+id/imagebt"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:src="@drawable/map"
+              android:id="@+id/image"/>
+        </LinearLayout>
+    </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+           <ImageButton
+               android:layout_margin="30dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+                android:id="@+id/addd"
+               android:src="@drawable/add"
+               android:scaleType="fitCenter">
+
+           </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="#D7D7D8"
+        android:layout_weight="7">
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_dehaze_48"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/menu_2"
+            android:src="@drawable/ic_baseline_home_24"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:src="@drawable/search"
+            android:id="@+id/menu_3"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_group_24"
+            android:scaleType="fitCenter"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test111">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageButton
+                android:id="@+id/menu_5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:background="#00ff0000"
+                android:src="@drawable/ic_baseline_face_24" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="15"
+                android:src="@drawable/aaa" />
+
+
+            <ImageButton
+                android:id="@+id/menu_6"
+                android:layout_width="40dp"
+                android:background="#00ff0000"
+                android:layout_height="40dp"
+                android:src="@drawable/setting"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal" >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|center_horizontal"
+            >
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+                android:id="@+id/menu_2"
+                android:scaleType="fitCenter"
+
+                android:background="#00ff0000"
+                android:src="@drawable/ic_baseline_dehaze_48" />
+
+            <ImageButton
+                android:id="@+id/menu_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#00ff0000"
+                android:src="@drawable/ic_baseline_home_24" />
+
+            <ImageButton
+                android:id="@+id/menu_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#00ff0000"
+                android:src="@drawable/search3" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/menu_4"
+                android:scaleType="fitCenter"
+                android:background="#00ff0000"
+                android:src="@drawable/info" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

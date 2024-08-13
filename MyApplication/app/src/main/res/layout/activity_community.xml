@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Community"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_24"
+            />
+        <ImageView
+            android:layout_weight="15"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:src="@drawable/aaa"
+            />
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"></View>
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+
+        android:id="@+id/content_srl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/recyclerView"/>
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+    <LinearLayout
+        android:background="#D7D7D8"
+        android:layout_height="60dp"
+
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_dehaze_48" />
+
+        <ImageButton
+            android:id="@+id/menu_2"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_home_24" />
+
+        <ImageButton
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/search" />
+
+        <ImageButton
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_group_24" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

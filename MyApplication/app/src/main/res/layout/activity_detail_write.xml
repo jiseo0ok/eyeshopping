@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailWrite"
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        >
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_24"
+            android:id="@+id/back"
+            android:background="#ffffff"/>
+        <ImageView
+            android:layout_weight="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aaa"/>
+        <ImageButton
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_24"
+            android:visibility="invisible"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:background="@drawable/edge4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="아이디"
+                android:textSize="20dp"
+                android:background="#322F2F"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/gomm"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="작성자"
+                android:textSize="20dp"
+                android:background="#322F2F"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/gomm"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="제목"
+                android:textSize="20dp"
+                android:fontFamily="@font/gomm"
+                android:background="#322F2F"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="내용"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="@font/gomm"
+                android:background="#322F2F"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="이미지"
+                android:fontFamily="@font/gomm"
+                android:textSize="20dp"
+                android:background="#322F2F"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+                    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="작성자 아이디"
+            android:text="aaa"
+
+            android:fontFamily="@font/gomm"
+            android:background="@null"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/userID"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="작성가게"
+                android:text="피플"
+                android:fontFamily="@font/gomm"
+                android:gravity="center"
+                android:background="@null"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/shopName"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="제목"
+                android:fontFamily="@font/gomm"
+                android:background="@null"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/title"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="내용"
+                android:fontFamily="@font/gomm"
+                android:background="@null"
+                android:gravity="center"
+
+
+                android:layout_marginBottom="5dp"
+                android:id="@+id/content"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/imagebt"
+                android:background="@drawable/edge7"
+                android:gravity="center"
+                android:src="@drawable/addd1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="#322F2F"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edge4"
+            android:padding="10dp"
+            android:id="@+id/image"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#322F2F"
+        android:textColor="#ffffff"
+        android:text="글 등록하기"
+
+        android:id="@+id/reg"
+        android:textSize="20dp"
+        />
+    </LinearLayout>
+
+
+
+</LinearLayout>

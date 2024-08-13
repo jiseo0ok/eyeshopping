@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChildFragment52">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F4D0D0">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="가게관리"
+
+            android:textColor="#322F2F"
+
+            android:textAlignment="center"
+            android:fontFamily="@font/gomm"
+            android:layout_marginBottom="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+            android:layout_width="0dp"
+                android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="가게바로가기"
+                android:id="@+id/go"
+            android:textColor="#ffffff"
+            android:backgroundTint="#322F2F"
+            android:textAlignment="center"
+            android:fontFamily="@font/gomm"
+
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edge6">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="아이디"
+                    android:textColor="#ffffff"
+                    android:background="#322F2F"
+                    android:fontFamily="@font/gomm"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:background="#322F2F"
+                    android:fontFamily="@font/gomm"
+                    android:text="가게이름"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:background="#322F2F"
+                    android:fontFamily="@font/gomm"
+                    android:text="주소"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:background="#322F2F"
+                    android:fontFamily="@font/gomm"
+                    android:text="검색어"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:background="#322F2F"
+                    android:fontFamily="@font/gomm"
+                    android:text="가게소개"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:background="#322F2F"
+                    android:fontFamily="@font/gomm"
+                    android:text="전화번호"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/gomm"
+                    android:id="@+id/shopId"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/gomm"
+                    android:id="@+id/shopName"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/gomm"
+                    android:id="@+id/shopAddress"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/gomm"
+                    android:id="@+id/shopHash"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/gomm"
+                    android:id="@+id/shopContext"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/gomm"
+                    android:id="@+id/shopCall"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#322F2F"
+            android:fontFamily="@font/gomm"
+            android:textColor="#ffffff"
+            android:id="@+id/tnwjd"
+            android:text="수정하기"/>
+    </LinearLayout>
+
+</FrameLayout>
